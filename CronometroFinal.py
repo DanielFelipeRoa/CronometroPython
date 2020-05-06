@@ -31,7 +31,7 @@ class App():
             h = int(h)
             m= int(m)
             s= int(s)
-            de= int(d)
+            de= int(de)
             if(de<59):
                 de+=1
             elif(de==59):
