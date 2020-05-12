@@ -71,7 +71,8 @@ class App():
     def __init__(self):
         self.root=Tk()
         self.root.title("Cronómetro")
-        self.root.geometry("600x500")
+        self.root.geometry("600x300")
+        self.root.config(bg = grey)
         self.root.resizable(False,False)
         self.t = StringVar()
         self.t.set("00:00:00:00")
@@ -80,7 +81,7 @@ class App():
         self.bt1 = Button(self.root,text="Start",command=self.start,font=("Courier 12 bold"))
         self.bt2 = Button(self.root,text="Stop",command=self.stop,font=("Courier 12 bold"))
         self.bt3 = Button(self.root,text="Reset",command=self.reset,font=("Courier 12 bold"))
-        self.lb.place(x=160,y=10)
+        self.lb.place(x=120,y=10)
         self.bt1.place(x=130,y=100)
         self.bt2.place(x=255,y=100)
         self.bt3.place(x=370,y=100)
