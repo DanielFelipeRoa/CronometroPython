@@ -11,4 +11,4 @@ El cronómetro esta compuesto de tres botones iniciar, parar, borrar. Es utiliza
 El cronómetro es una composición de dos palabras griegas "Cronos" que era el nombre de Dios del tiempo y "Metrón" se traduce como medida. 
 
 ## Interfaz Gráfica
-![Cronómetro](/crono.jpg)
+![Cronómetro](https://github.com/DanielFelipeRoa/CronometroPython/blob/master/crono.png)
