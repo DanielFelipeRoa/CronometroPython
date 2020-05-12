@@ -84,6 +84,7 @@ class App():
         self.bt1.place(x=130,y=100)
         self.bt2.place(x=255,y=100)
         self.bt3.place(x=370,y=100)
+        self.root.mainloop()
 
 
 
